@@ -1,0 +1,90 @@
+/* App.css */
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Press Start 2P', sans-serif;
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-top: 200px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 36px;
+  color: #f06;
+  text-transform: uppercase;
+  border: 2px solid #f06;
+  border-radius: 15px 55px;
+}
+
+form {
+  display: flex;
+  align-items: center;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  border-bottom: 2px solid #f06;
+  background-color: #000;
+  color: #fff;
+}
+
+button[type="submit"] {
+  background-color: #f06;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  background-color: #000;
+  border: 2px solid #f06;
+  padding: 10px;
+  border-radius: 55px 15px;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #f06;
+  margin-right: 25px;
+  margin-left: 30px;
+
+}
+
+li span {
+  flex: 1;
+  font-size: 24px;
+}
+
+button {
+  background-color: #000;
+  color: #f06;
+  border: 2px solid #f06;
+  padding: 5px 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 55px 15px;
+}
+
+button:hover {
+  background-color: #f06;
+  color: #000;
+}
+
+
